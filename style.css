@@ -1,0 +1,28 @@
+body {
+  background-color: #1e1e1e;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+canvas {
+  background-color: #222;
+  border: 2px solid #00ff99;
+}
+#gameOverPanel {
+  margin-top: 20px;
+}
+button {
+  background-color: #00ff99;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin: 6px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #00cc77;
+}

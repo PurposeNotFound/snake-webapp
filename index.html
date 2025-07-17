@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Змейка в Telegram</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <h1>🐍 Змейка</h1>
+  <canvas id="gameCanvas" width="400" height="400"></canvas>
+  <p id="score">Очки: 0</p>
+
+  <div id="gameOverPanel" style="display: none;">
+    <p>😵 Игра окончена. Очки: <span id="finalScore">0</span></p>
+    <button onclick="restartGame()">🔁 Играть заново</button>
+    <button onclick="showLeaderboard()">🏆 Топ</button>
+    <button onclick="goToMenu()">🏠 Меню</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
